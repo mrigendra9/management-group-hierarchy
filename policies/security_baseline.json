@@ -1,0 +1,9 @@
+{
+  "if": {
+    "field": "Microsoft.Web/sites/httpsOnly",
+    "equals": "false"
+  },
+  "then": {
+    "effect": "deny"
+  }
+}
